@@ -8,26 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		AE60E4CD1F50232900BE2614 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE60E4CC1F50232900BE2614 /* AppDelegate.swift */; };
-		AE60E4CF1F50232900BE2614 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = AE60E4CE1F50232900BE2614 /* GameScene.sks */; };
-		AE60E4D11F50232900BE2614 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = AE60E4D01F50232900BE2614 /* Actions.sks */; };
-		AE60E4D31F50232900BE2614 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE60E4D21F50232900BE2614 /* GameScene.swift */; };
 		AE60E4D51F50232900BE2614 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE60E4D41F50232900BE2614 /* GameViewController.swift */; };
 		AE60E4D81F50232900BE2614 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE60E4D61F50232900BE2614 /* Main.storyboard */; };
 		AE60E4DA1F50232900BE2614 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE60E4D91F50232900BE2614 /* Assets.xcassets */; };
 		AE60E4DD1F50232900BE2614 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE60E4DB1F50232900BE2614 /* LaunchScreen.storyboard */; };
+		AE60E4E51F50246700BE2614 /* bird.atlas in Resources */ = {isa = PBXBuildFile; fileRef = AE60E4E41F50246700BE2614 /* bird.atlas */; };
+		AE7D337C1F5D37860022FC67 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7D337B1F5D37860022FC67 /* GameScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AE60E4C91F50232900BE2614 /* MJFlappyBird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MJFlappyBird.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE60E4CC1F50232900BE2614 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AE60E4CE1F50232900BE2614 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		AE60E4D01F50232900BE2614 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		AE60E4D21F50232900BE2614 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		AE60E4D41F50232900BE2614 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		AE60E4D71F50232900BE2614 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE60E4D91F50232900BE2614 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE60E4DC1F50232900BE2614 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE60E4DE1F50232900BE2614 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE60E4E41F50246700BE2614 /* bird.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = bird.atlas; sourceTree = "<group>"; };
+		AE7D337B1F5D37860022FC67 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				AE60E4CC1F50232900BE2614 /* AppDelegate.swift */,
-				AE60E4CE1F50232900BE2614 /* GameScene.sks */,
-				AE60E4D01F50232900BE2614 /* Actions.sks */,
-				AE60E4D21F50232900BE2614 /* GameScene.swift */,
 				AE60E4D41F50232900BE2614 /* GameViewController.swift */,
+				AE7D337B1F5D37860022FC67 /* GameScene.swift */,
 				AE60E4D61F50232900BE2614 /* Main.storyboard */,
+				AE60E4E41F50246700BE2614 /* bird.atlas */,
 				AE60E4D91F50232900BE2614 /* Assets.xcassets */,
 				AE60E4DB1F50232900BE2614 /* LaunchScreen.storyboard */,
 				AE60E4DE1F50232900BE2614 /* Info.plist */,
@@ -133,11 +130,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE60E4E51F50246700BE2614 /* bird.atlas in Resources */,
 				AE60E4D81F50232900BE2614 /* Main.storyboard in Resources */,
-				AE60E4CF1F50232900BE2614 /* GameScene.sks in Resources */,
 				AE60E4DA1F50232900BE2614 /* Assets.xcassets in Resources */,
 				AE60E4DD1F50232900BE2614 /* LaunchScreen.storyboard in Resources */,
-				AE60E4D11F50232900BE2614 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,8 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE60E4D31F50232900BE2614 /* GameScene.swift in Sources */,
 				AE60E4D51F50232900BE2614 /* GameViewController.swift in Sources */,
+				AE7D337C1F5D37860022FC67 /* GameScene.swift in Sources */,
 				AE60E4CD1F50232900BE2614 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +273,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.MJFlappyBird;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -290,6 +287,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.MJFlappyBird;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -312,6 +310,7 @@
 				AE60E4E31F50232900BE2614 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
