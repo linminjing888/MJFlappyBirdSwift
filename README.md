@@ -1,4 +1,4 @@
 # MJFlappyBirdSwift
 
 
-![images](https://github.com/udoubi/MJFlappyBirdSwift/blob/master/bird.gif)
+![images](https://github.com/JingJing-Lin/MJFlappyBirdSwift/blob/master/bird.gif)
